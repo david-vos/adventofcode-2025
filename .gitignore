@@ -1,5 +1,6 @@
 .idea
 .vsc
+.vscode
 .fleet
-**/one
-**/two
+.build
+cmake-build-debug/
