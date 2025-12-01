@@ -18,6 +18,7 @@ add_executable(aoc ${SWIFT_SOURCES})
 # Set output directory to match Swift Package Manager structure
 set_target_properties(aoc PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
+    Swift_MODULE_DIRECTORY "${CMAKE_BINARY_DIR}/CMakeFiles/aoc.dir"
 )
 
 # Copy resources directory to build directory so the executable can find input files
