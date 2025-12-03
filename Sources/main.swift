@@ -26,3 +26,15 @@ print(
 print("Part One: \(d2part1(fileString: readFile(filePath: "resources/input-2")))")
 print("Part Two: \(d2part2(fileString: readFile(filePath: "resources/input-2")))")
 
+print(
+    "================================" +
+    "\n" +
+    "Day 3: \n" +
+    "TotalTime spent: \n" +
+    "   part 1: 1h 9min \n" +
+    "   part 2: 2h 24min \n" +
+    "================================ \n"
+)
+print("Part One: \(d3part1(fileString: readFile(filePath: "resources/input-3")))")
+print("Part Two: \(d3part2(fileString: readFile(filePath: "resources/input-3")))")
+
