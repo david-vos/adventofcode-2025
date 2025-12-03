@@ -1,4 +1,4 @@
-func part2(fileString: String) -> Int {
+func d1part2(fileString: String) -> Int {
     let dialStartingPos = 50
     var pos = dialStartingPos
     var password = 0
