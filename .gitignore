@@ -3,4 +3,5 @@
 .vscode
 .fleet
 .build
+.nvim
 cmake-build-debug/
